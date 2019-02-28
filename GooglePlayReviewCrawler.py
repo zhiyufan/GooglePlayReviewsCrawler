@@ -21,7 +21,6 @@ app_ip = [
     #'com.android.gpstest'
     #'com.medium.reader',
     #'com.ideashower.readitlater.pro',
-    #'com.tasks.android'
     #'com.neatometer.android'
     #'com.weebly.android'
     #'notion.id'
@@ -38,20 +37,55 @@ app_ip = [
     #'com.tapdir.success.psychology'
     #'com.tapdir.learnenglish'
     #'com.getsomeheadspace.android',
+
     #'com.spotlightsix.zentimerlite2'
     #'org.wikipedia',
     #'org.ligi.survivalmanual'
     #'com.goodreads'
     #'com.elasthink.lyricstraining'
-    #'com.timeanddate.countdown'                                     setting upgrade  share
+    #'com.timeanddate.countdown'                                     1.4.9 setting upgrade  share
     #'org.pixelrush.moneyiq'
     #'in.usefulapp.timelybills'
+
     #'net.techet.netanalyzerlite.an'
     #'com.arkadiusz.dayscounter'
     #'com.sociosoft.countdown'
     #'com.brunoschalch.timeuntil'
     #'com.pione.questiondiary',
-    'com.epiphany.lunadiary'
+    #'com.epiphany.lunadiary'
+    #'com.bookmark.money',
+    #'com.devhd.feedly'
+    #'cache.optimize.cleancache.clearcache.cachecleaner.clean.clear.boost.booster.junk'
+    #'com.astrovicapp.bigDaysLite'
+    #'com.brunoschalch.timeuntil'
+    #'org.M.alcodroid'
+    #'net.nebulium.wiki'
+    #'com.b_lam.resplash'
+    #'com.feresr.walpy'
+    #'partl.dailypic'
+    #'com.thambu.lockscreenwallpaper.free'
+    #'com.xnview.hypocam'
+
+    #'com.xnview.inmage'
+    #'com.hdwallpaper.wallpaper4k'
+    #'com.innologica.inoreader'
+    #'com.wered.sensorsmultitool'
+    #'com.knappily.media',
+    #'com.abhi.newmemo',
+    #'com.humanhelper.forhuman.quick',
+    #'com.nisahnt.nishantbafna.notifydemo',
+    #'com.teamlease.associate',
+    #'com.studionmd.whitenoise',
+    #'ice.lenor.nicewordplacer.app'
+    #'com.truatvl.englishgrammartest.dev',
+    #'com.djonique.birdays',
+    #'com.ToDoReminder.gen'
+    #'com.tasks.android'                                               1.10    local backup
+    #'com.kabouzeid.gramophone'
+    #'com.kongzue.tofuture',
+    #'com.nearify.android'
+    #'com.dripgrind.mindly'
+    'com.starttoday.android.wear'
 ]
 
 show_more_class_tag = "RveJvd"
@@ -107,6 +141,7 @@ while app_num < len(app_ip):
             click_full_reviews = "var a = document.getElementsByClassName(\"" + full_reviews_tag + "\"); a[" + str(
                 i) + "].click();"
             driver.execute_script(click_full_reviews)
+    print("start to match result")
 
     count = 0
 
@@ -118,11 +153,11 @@ while app_num < len(app_ip):
     for user in users:
         dates.append(user.find_elements_by_class_name(dates_tag)[0])
         user_name.append(user.find_elements_by_class_name(users_name_tag)[0])
-        stars.append(user.find_elements_by_class_name(star_tag)[0])
+        #stars.append(user.find_elements_by_class_name(star_tag)[0])
 
     final_json = []
     print("start to build json for "+app_ip[app_num])
-    for review, date, name, star in zip(reviews,dates,user_name, stars):
+    for review, date, name in zip(reviews,dates,user_name):
         if is_crash_exist(review.text):
             count += 1
             result = {"Content": review.text, "Numbers": str(count), "Date": date.text}
