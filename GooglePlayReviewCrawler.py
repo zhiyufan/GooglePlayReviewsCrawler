@@ -75,6 +75,7 @@ app_ip = [
     #'com.humanhelper.forhuman.quick',
     #'com.nisahnt.nishantbafna.notifydemo',
     #'com.teamlease.associate',
+
     #'com.studionmd.whitenoise',
     #'ice.lenor.nicewordplacer.app'
     #'com.truatvl.englishgrammartest.dev',
@@ -85,7 +86,28 @@ app_ip = [
     #'com.kongzue.tofuture',
     #'com.nearify.android'
     #'com.dripgrind.mindly'
-    'com.starttoday.android.wear'
+    #'com.starttoday.android.wear'
+    #'com.meisterlabs.meistertask.native'
+    #'com.formagrid.airtable'                                            1.2.2 download any media
+    #'x1Trackmaster.x1Trackmaster'
+    #'io.edo.agenda'
+    #'com.jellyworkz.mubert'
+    #'com.mysugr.android.companion',
+    #'com.read.app'
+    #'com.pexels.app'
+    #'com.nibbleapps.fitmencook'
+    #'com.workflowy.android',
+    #'com.dvdb.bergnotes',
+    #'net.kreosoft.android.mynotes'
+    #'com.designs1290.tingles'
+    #'com.slowlyapp'
+    #'com.mywickr.wickr2'
+    #'another.music.player'
+    #'orphic.eclectik.com.orphic'
+    #'app.Xeasec.writer'
+    #'it.returntrue.novelist'
+    #'com.diffathy.bbapp'
+    'sanity.podcast.freak'
 ]
 
 show_more_class_tag = "RveJvd"
