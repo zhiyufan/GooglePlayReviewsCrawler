@@ -85,7 +85,14 @@ app_ip = [
     #'com.kongzue.tofuture',
     #'com.nearify.android'
     #'com.dripgrind.mindly'
-    'com.starttoday.android.wear'
+    #'com.starttoday.android.wear'
+
+
+    #"com.seatgeek.android", 111
+    #'com.wrike'             111
+    #'com.meisterlabs.meistertask.native'
+    #'com.asana.app'
+    'com.wetransfer.app.live'
 ]
 
 show_more_class_tag = "RveJvd"
@@ -94,7 +101,7 @@ full_reviews_tag = "OzU4dc"
 users_tag = "kx8XBd"
 users_name_tag = "X43Kjb"
 dates_tag = "p2TkOb"
-star_tag = "pf5lIe"
+stars_tag = "nt2Cld"
 solid_star_tag = "vQhuPe"
 scroll_to_bottom = "window.scrollTo(0, document.body.scrollHeight);"
 
@@ -149,7 +156,7 @@ while app_num < len(app_ip):
     users = driver.find_elements_by_class_name(users_tag)
     dates = []
     user_name = []
-    stars = []
+    stars = driver.find_elements_by_class_name(stars_tag)
     for user in users:
         dates.append(user.find_elements_by_class_name(dates_tag)[0])
         user_name.append(user.find_elements_by_class_name(users_name_tag)[0])

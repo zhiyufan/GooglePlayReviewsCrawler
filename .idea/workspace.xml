@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8830160-a8da-4564-9a54-36e66ab6e0be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GooglePlayReviewsCrawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GooglePlayReviewsCrawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GooglePlayReviewCrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/GooglePlayReviewCrawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.tasks.android.json" beforeDir="false" afterPath="$PROJECT_DIR$/com.tasks.android.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GooglePlayReviewsCrawler$GooglePlayReviewCrawler.coverage" NAME="GooglePlayReviewCrawler Coverage Results" MODIFIED="1551353320755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GooglePlayReviewsCrawler$GooglePlayReviewCrawler.coverage" NAME="GooglePlayReviewCrawler Coverage Results" MODIFIED="1551602292018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GooglePlayReviewCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -154,11 +151,12 @@
       <workItem from="1551249415224" duration="7495000" />
       <workItem from="1551263432022" duration="9629000" />
       <workItem from="1551334348748" duration="10286000" />
+      <workItem from="1551592273588" duration="6807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93072000" />
+    <option name="totallyTimeSpent" value="99879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="2493" height="1415" extended-state="6" />
@@ -199,7 +197,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GooglePlayReviewCrawler.py</url>
-          <line>157</line>
+          <line>164</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
@@ -228,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GooglePlayReviewCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
