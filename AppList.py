@@ -104,5 +104,32 @@ app_ip = [
     #'com.meisterlabs.meistertask.native'
     #'com.asana.app'
     #'com.wetransfer.app.live'
-    'com.radiolight.etatsunis'
+    #'com.radiolight.etatsunis'
+    #'com.vimage.android'
+    #'com.smartertime'
+    #'net.robysoft.justrain',
+    #'com.thetileapp.tile',                                                    # v2.39.2 click setting
+    #'com.sunraylabs.socialtags',
+    #'com.instapaper.android'                                            4.3.3  location permission
+    #'net.ia.iawriter'
+    #'com.aloggers.atimeloggerapp',
+    #'com.modelmakertools.simplemindfree'
+    #'com.monefy.app.lite',                                              # restore didn't work           v1.8.1  export crash
+    #'mic.app.gastosdiarios_clasico',
+    #'com.engross',
+    #'com.apps.adrcotfas.goodtime',
+    #'com.AT.PomodoroTimer'
+    #'io.lingvist.android'
+    #'com.piapps.flashcard'
+    #'com.lexilize.fc'
+    #'com.pzizz.android'
+    #'com.getsomeheadspace.android'
+    #'com.a0soft.gphone.uninstaller',
+    #'com.mindefy.phoneaddiction.mobilepe'
+    #'mrigapps.andriod.breakfree.deux'
+    #'co.offtime.kit'
+    #'com.flipd.app'
+    #'de.dfki.appdetox'
+    #'com.goozix.antisocial_personal'
+    'com.huffingtonpost.android'
 ]
